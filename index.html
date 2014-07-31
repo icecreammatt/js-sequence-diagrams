@@ -29,7 +29,7 @@
                 <option value="hand" selected>Hand drawn</option>
               </select>
  -->                
- <a href="#" class="download">Download as SVG</a>
+ <a href="#" target="blank" class="download">Download as SVG</a>
             </td>
           </tr>
         <tr id="example1">
@@ -57,7 +57,7 @@
         var editor_div = $(".editor");
         var diagram_div = div.find(".diagram");
         var theme_div = div.find(".theme");
-        var download_link = div.find('.download');
+        var download_link = $('.download');
 
         // Setup the editor diagram
         var editor = ace.edit(editor_div.get(0));
