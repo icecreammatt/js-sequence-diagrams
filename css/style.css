@@ -93,6 +93,10 @@ header h2 {
   margin-left: 20px;
 }
 
+table {
+  margin-top: 200px;
+}
+
 .editor { 
     width: 800px;
     height: 210px;
@@ -100,8 +104,14 @@ header h2 {
 }
 
 .editor-wrapper {
+  background: white;
+  outline: 1px solid #333;
     width: 800px;
     height: 210px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
 }
 
 .gh-forkme {
