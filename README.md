@@ -1,3 +1,5 @@
+[http://icecreammatt.github.io/js-sequence-diagrams](http://icecreammatt.github.io/js-sequence-diagrams)
+
 JS Sequence Diagrams
 =============================================
 **Generates UML sequence diagrams from simple text**  
